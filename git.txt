@@ -1,0 +1,11 @@
+git init
+vim README
+git add -A
+git commit -m ' '
+git branch 
+git branch -a
+git remote add study https://github.com/21pages/study.git
+git fetch study			//fetch + merge =pull	git pull study master
+git merge study/master
+git branch -a
+git push -u study master	//第一次加 -u ，以后不加
